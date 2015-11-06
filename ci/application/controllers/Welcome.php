@@ -19,6 +19,7 @@ class Welcome extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 
+
 	function __construct(){
 		parent::__construct();
 		$this->load->helper('cookie');
